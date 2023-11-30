@@ -1,0 +1,8 @@
+@import url(css/style.css);
+@import url(css/login.css);
+
+:root{
+    --cor-texto: #ffffff;
+    --cor-detalhes: #ffc814;
+    --cor-fundo: #000000;
+}

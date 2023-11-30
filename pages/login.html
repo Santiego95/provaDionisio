@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md nav-cor">
+                <div class="container">
+                    <a class="navbar-brand text-color" href="#">Das Montanhas</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="relogio">
+                        <p class="display-6" id="relogio">HH:MM:SS</p>
+                    </div>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-color"
+                                    aria-current="page"
+                                    href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-color"
+                                    href="../pages/historia.html">História</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-color"
+                                    href="../pages/cervejas.html">Cervejas</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-color" href="contato.html">Contatos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div data-aos="fade-right" class="box">
+                <div class="drop">
+                    <div class="content">
+                        <h2 class='animate__heartBeat'>Login</h2>
+                        <form>
+                            <div class="input-box">
+                                <input type="text" placeholder="Nome">
+                            </div>
+                            <div class="input-box">
+                                <input type="password" placeholder="Senha">
+                            </div>
+                            <div class="input-box">
+                                <input type="submit" value="Entrar" href='#'>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <a href="#" data-aos="fade-up" class='btn'>Lembrar Senha</a>
+                <a href="cadastrar.html"  data-aos="fade-down" class='btn signup'>Cadastrar</a>
+            </div>
+        </section>
+        <footer id="contato">
+            <div class="container p-1">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2 class="display-5 text-color">
+                            Mapa
+                        </h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58840.43807985516!2d-45.20842752216637!3d-22.81997002377888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smapa!5e0!3m2!1spt-BR!2sbr!4v1696551793635!5m2!1spt-BR!2sbr"
+                            class="w-100" style="border:0;" allowfullscreen
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-12 col-md-6 text-center">
+                        <h2 class="display-5 text-color">Contatos</h2>
+                        <div
+                            class="d-flex justify-content-around align-items-center">
+                            <i class="bi bi-whatsapp fs-2 m-2 footer-cor-icon"></i>
+                            <i class="bi bi-instagram fs-2 m-2 footer-cor-icon"></i>
+                            <i class="bi bi-facebook fs-2 m-2 footer-cor-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="../js/app.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+</html>
